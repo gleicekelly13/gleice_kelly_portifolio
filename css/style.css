@@ -1,9 +1,16 @@
+/* Estilos Gerais */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+
+.limita-secao {
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 header {
@@ -14,4 +21,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.links-topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.links-topo a {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 3px 5px 2px #000000;
+    color: #5734f5;
+    letter-spacing: 2px;
+}
+
+.links-topo a:hover {
+    transform: perspective(100px) translateZ(10px);  /* Criação do efeito 3D ao passar o mouse sobre o link. A `perspective(100px)` cria uma sensação de profundidade, e o `translateZ(10px)` move o elemento 10 pixels para frente no eixo Z. */
+    color: #d0d5f3;
 }
