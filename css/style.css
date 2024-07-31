@@ -8,10 +8,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.limita-secao {
+body {
+    background: linear-gradient(90deg, rgba(107,112,116,1) 1%, rgba(68,68,73,1) 100%, rgba(151,162,164,1) 100%);
+}
+
+/*.limita-secao {
     max-width: 1024px;
     margin: 0 auto;
-}
+}*/
 
 header {
     width: 100%;
@@ -40,6 +44,34 @@ header {
 }
 
 .links-topo a:hover {
-    transform: perspective(100px) translateZ(10px);  /* Criação do efeito 3D ao passar o mouse sobre o link. A `perspective(100px)` cria uma sensação de profundidade, e o `translateZ(10px)` move o elemento 10 pixels para frente no eixo Z. */
-    color: #d0d5f3;
+    transform: perspective(100px) translateZ(15px);  /* Criação do efeito 3D ao passar o mouse sobre o link. A `perspective(100px)` cria uma sensação de profundidade, e o `translateZ(10px)` move o elemento 10 pixels para frente no eixo Z. */
+    color: #a6a8b4;
 }
+
+.secao-titulo {
+    padding-top: 20vh;
+    background: radial-gradient(circle, rgba(107,112,116,1) 0%, rgba(34,35,36,1) 69%, rgba(68,68,73,1) 100%, rgba(151,162,164,1) 100%);
+
+}
+
+.titulo {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10vh;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.cargo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
