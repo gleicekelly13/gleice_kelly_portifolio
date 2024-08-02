@@ -79,14 +79,15 @@ main {
     width: 100%;
     max-width: 1024px;
     padding-top: 10vh;
+    padding-bottom: 20vh;
 }
 
 .conteudo-principal {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 6rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    gap: 20px;
 } 
 
 .secao-image img {
@@ -94,3 +95,25 @@ main {
     
 }
 
+.conteudo-textual {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+     height: 100%;
+}
+
+.conteudo-textual h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    
+}
