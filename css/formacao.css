@@ -1,0 +1,13 @@
+.lista-formacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+li {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
