@@ -40,4 +40,6 @@
 .lista-portfolio p {
     flex-grow: 1;
     margin-left: 30px;
+    letter-spacing: 0.7px;
+    line-height: 27px;
 }
