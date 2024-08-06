@@ -151,3 +151,37 @@ footer p {
         padding-right: 30px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        max-width: 1200px;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    .cargo {
+        font-size: 25px;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .conteudo-textual h2 {
+        padding-top: 20px;
+    }
+
+    .conteudo-textual p {
+        font-size: 18px;
+        margin: 0 40px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
