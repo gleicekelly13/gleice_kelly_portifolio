@@ -145,3 +145,9 @@ footer p {
     width: 40px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+    .conteudo-principal {
+        padding-right: 30px;
+    }
+}
