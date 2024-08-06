@@ -9,8 +9,8 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(107,112,116,1) 1%, rgba(68,68,73,1) 100%, rgba(151,162,164,1) 100%);
-}
+    background: rgb(91, 94, 95);
+}   
 
 header {
     width: 100%;
@@ -34,13 +34,14 @@ header {
     font-size: 18px;
     font-weight: 700;
     text-shadow: 3px 5px 2px #000000;
-    color: #5734f5;
+    color: #a6a8b4;
     letter-spacing: 2px;
 }
 
 .links-topo a:hover {
     transform: perspective(100px) translateZ(15px);  /* Criação do efeito 3D ao passar o mouse sobre o link. A `perspective(100px)` cria uma sensação de profundidade, e o `translateZ(10px)` move o elemento 10 pixels para frente no eixo Z. */
-    color: #a6a8b4;
+    color: #e6e7ec;
+    
 }
 
 .secao-titulo {
@@ -63,6 +64,7 @@ header {
 h1 {
     font-size: 3.5rem;
     font-weight: 600;
+    
 }
 
 .cargo {
