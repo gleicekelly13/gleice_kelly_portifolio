@@ -42,3 +42,8 @@ button {
     font-weight: 400;
 }
 
+@media screen and (max-width:425px) {
+    input {
+        width: 22rem;
+    }
+}
