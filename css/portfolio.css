@@ -60,6 +60,7 @@
     }
 
     .lista-portfolio li img {
+        width: 100%;
         max-width: 100%;
         padding-top: 15px;
     }
