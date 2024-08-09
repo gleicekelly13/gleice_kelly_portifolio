@@ -56,6 +56,6 @@ button {
 
 @media screen and (max-width: 320px) {
     input {
-        width: 15rem;
+        width: 18rem;
     }
 }
