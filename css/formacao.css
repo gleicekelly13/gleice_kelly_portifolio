@@ -18,3 +18,12 @@ li {
         padding: 0 40px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lista-formacao li {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 17px;
+    }
+} 
+    

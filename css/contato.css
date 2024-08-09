@@ -53,3 +53,9 @@ button {
         width: 20rem;
     }
 }
+
+@media screen and (max-width: 320px) {
+    input {
+        width: 15rem;
+    }
+}
