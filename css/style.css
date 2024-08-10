@@ -1,27 +1,29 @@
 /* Estilos Gerais */
 
+/* Estilos aplicados a todos os elementos do site */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  /* Fonte padrão do site */
 }
 
 body {
-    background: rgb(91, 94, 95);
+    background: rgb(91, 94, 95); /* Cor de fundo geral do site */
 }   
 
 header {
     width: 100%;
     height: 70px;
-    position: fixed;
+    position: fixed; /* Fixa o cabeçalho no topo durante o scroll */
     background-color: rgb(51, 50, 50);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Estilo dos links de navegação no topo */
 .links-topo {
     width: 100%;
     display: flex;
@@ -33,11 +35,12 @@ header {
     margin: 0 10px;
     font-size: 18px;
     font-weight: 700;
-    text-shadow: 3px 5px 2px #000000;
+    text-shadow: 3px 5px 2px #000000; /* Sombra no texto dos links */
     color: #a6a8b4;
     letter-spacing: 2px;
 }
 
+/* Efeito 3D nos links ao passar o mouse */
 .links-topo a:hover {
     transform: perspective(100px) translateZ(15px);  /* Criação do efeito 3D ao passar o mouse sobre o link. A `perspective(100px)` cria uma sensação de profundidade, e o `translateZ(10px)` move o elemento 10 pixels para frente no eixo Z. */
     color: #e6e7ec;
@@ -46,7 +49,7 @@ header {
 
 .secao-titulo {
     width: 100%;
-    padding-top: 20vh;
+    padding-top: 20vh; /* Espaçamento superior para centralizar conteúdo */
     background: radial-gradient(circle, rgba(107,112,116,1) 0%, rgba(34,35,36,1) 69%, rgba(68,68,73,1) 100%, rgba(151,162,164,1) 100%);
 
 }
@@ -73,6 +76,7 @@ h1 {
     font-weight: 500;
 }
 
+/* Estilos da seção principal */
 main {
     width: 100%;
     max-width: 1024px; 
@@ -100,6 +104,7 @@ main {
      height: 100%;
 }
 
+/* Estilo do texto principal */
 .conteudo-textual h2 {
     font-size: 30px;
     font-weight: 700;
@@ -107,6 +112,7 @@ main {
     padding-bottom: 10px;
 }
 
+/* Estilo do rodapé */
 footer {
     width: 100%;
     margin: 0 auto;
@@ -135,6 +141,7 @@ footer p {
     
 }
 
+/* Estilo dos ícones de redes sociais */
 .secao-icones img {
     width: 40px;
     border-radius: 10px;
@@ -150,14 +157,16 @@ p {
     
 }
 
+/* Estilos responsivos */
 
-
+/* Ajustes para telas menores que 1024px */
 @media screen and (max-width: 1024px) {
     .conteudo-principal {
         padding-right: 30px;
     }
 }
 
+/* Ajustes para telas menores que 768px */
 @media screen and (max-width: 768px) {
     .titulo {
         max-width: 1200px;
@@ -192,6 +201,7 @@ p {
     }
 }
 
+/* Ajustes para telas menores que 425px */
 @media screen and (max-width: 425px) {
     .links-topo a {
         margin: 0 5px;
