@@ -258,6 +258,7 @@ p {
 
 }
 
+/* Estilização específica para telas muito pequenas */
 @media screen and (max-width: 320px) {
     .links-topo a {
         font-size: 13px;   
