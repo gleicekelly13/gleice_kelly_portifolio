@@ -1,10 +1,11 @@
+/* Container para centralizar o conteúdo da página e definir sua largura máxima */
 .container-conteudo {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza os elementos verticalmente */
     align-items: center;
     
 }
@@ -16,14 +17,16 @@
     margin-bottom: 40px;
 }
 
+/* Estilos para a lista de portfólio */
 .lista-portfolio {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 30px; 
 }
 
+/* Estilos para os itens da lista de portfólio */
 .lista-portfolio li {
     width: 100%;
     max-width: 768px;
@@ -32,13 +35,15 @@
     justify-content: space-between;
 }
 
+/* Estilos para as imagens do portfólio */
 .lista-portfolio img {
     max-width: 300px;
-    height: auto;
+    height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilos para os parágrafos do portfólio */
 .lista-portfolio p {
-    flex-grow: 1;
+    flex-grow: 1; /* Faz com que o parágrafo ocupe o espaço restante */
     margin-left: 30px;
     letter-spacing: 0.7px;
     line-height: 27px;
