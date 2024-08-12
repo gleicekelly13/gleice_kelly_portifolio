@@ -1,29 +1,34 @@
+/* Estilização do formulário de contato */
 .conteudo-textual form {
-    width: 100%;
+    width: 100%; /* O formulário ocupa 100% da largura disponível */
     display: flex;
     flex-direction: column;
 }
 
+/* Estilização dos rótulos dos campos do formulário */
 label {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 500; /* Deixa o texto dos rótulos com espessura mais grossa */
     color: #000000;
 }
 
+/* Estilização dos campos de entrada do formulário */
 input {
     width: 25rem;
     height: 35px;
     border: 2px solid #414142;
     border-radius: 15px;
     margin: 10px 0;
-    outline: none;
+    outline: none; /* Remove a borda padrão ao clicar no campo */
     padding: 0 20px;
-    box-shadow: 3px 3px 2px #414142;
+    box-shadow: 3px 3px 2px #414142; /* Sombra leve em volta do campo */
 }
 
+/* Estilização da área de texto do formulário */
 textarea {
     width: 100%;
     height: 200px;
+    border: 2px solid #414142;
     margin: 10px 0;
     border-radius: 15px;
     outline: none;
@@ -32,6 +37,7 @@ textarea {
     font-size: 15px;
 }
 
+/* Estilização do botão de envio do formulário */
 button {
     width: 4rem;
     height: 2rem;
@@ -44,7 +50,7 @@ button {
 
 @media screen and (max-width:425px) {
     input {
-        width: 22rem;
+        width: 22rem; /* Ajusta a largura dos inputs */
     }
 }
 
@@ -56,7 +62,7 @@ button {
 
 @media screen and (max-width: 320px) {
     label {
-        font-size: 17px;
+        font-size: 17px; /* Reduz o tamanho da fonte dos rótulos */
     }
 
     input {
