@@ -11,3 +11,8 @@
 <br>
 
 ## :iphone: Mobile design
+<br>
+<div align = "center">
+<img src = "https://github.com/user-attachments/assets/61d92562-fa9a-4187-8eac-b3142147c50e" width = "300" />
+</div>
+<br>
