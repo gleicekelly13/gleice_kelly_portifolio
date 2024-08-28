@@ -21,3 +21,6 @@
 <h4>:white_check_mark: Desktop - FINALIZADO :white_check_mark: </h4>
 <h4>:white_check_mark: Mobile - FINALIZADO :white_check_mark: </h4>
 <br>
+
+<h2 align="center">:hammer: Funcionalidades do projeto </h2>
+<p>A página possui 4 links no topo que direcionam para outras páginas seguindo seus respectivos temas, a página portfólio contém links externos que direcionam para os sites descritos. Além disso, a página é responsiva, se adaptando a diferentes formatos de tela.</p>
