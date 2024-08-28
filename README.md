@@ -24,3 +24,8 @@
 
 <h2 align="center">:hammer: Funcionalidades do projeto </h2>
 <p>A página possui 4 links no topo que direcionam para outras páginas seguindo seus respectivos temas, a página portfólio contém links externos que direcionam para os sites descritos. Além disso, a página é responsiva, se adaptando a diferentes formatos de tela.</p>
+<br>
+
+<h2 align="center"> :file_folder: Acesso ao projeto </h2>
+<p> Você pode acessar o projeto final clicando aqui: https://gleicekelly13.github.io/gleice_kelly_portifolio/index.html </p>
+<br>
