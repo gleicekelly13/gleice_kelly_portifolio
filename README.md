@@ -31,7 +31,8 @@
   <li>Aplicar navegação interna e externa;</li>
   <li>Prática em definir vaores relativos para elementos;</li>
   <li>Desenvolvimento de formulário;</li>
-  <li>Estilização aprimorando o uso do flexbox, e do box-shadow</li>
+  <li>Estilização aprimorando o uso do flexbox, e do box-shadow;</li>
+  <li>Aplicação da responsividade.</li>
 </ul>
 <br>
 
